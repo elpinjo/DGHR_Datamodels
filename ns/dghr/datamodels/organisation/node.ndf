@@ -6,15 +6,290 @@
     <value name="node_subtype">unknown</value>
     <value name="node_nsName">dghr.datamodels:organisation</value>
     <value name="node_pkg">DGHR_Datamodels</value>
+    <value name="node_comment"></value>
     <value name="is_public">false</value>
+    <value name="displayName"></value>
+    <value name="favorite"></value>
+    <value name="tags"></value>
+    <value name="since"></value>
+    <value name="deprecated"></value>
+    <value name="is_visible"></value>
     <value name="field_type">record</value>
     <value name="field_dim">0</value>
+    <value name="wrapper_type">IData</value>
     <value name="nillable">true</value>
     <value name="form_qualified">false</value>
     <value name="is_global">false</value>
+    <number name="nanostamp" type="Long">23472378962208</number>
     <array name="rec_fields" type="record" depth="1">
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="node_comment"></value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+          <value name="field_usereditable">true</value>
+          <value name="field_largerEditor">false</value>
+          <value name="field_password">false</value>
+        </record>
+        <value name="is_public">false</value>
+        <value name="field_name">id</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <array name="field_options" type="value" depth="1">
+        </array>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <number name="protobufKey" type="Integer">1</number>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="node_comment"></value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+          <value name="field_usereditable">true</value>
+          <value name="field_largerEditor">false</value>
+          <value name="field_password">false</value>
+        </record>
+        <value name="is_public">false</value>
+        <value name="field_name">name</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <array name="field_options" type="value" depth="1">
+        </array>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <number name="protobufKey" type="Integer">2</number>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="node_comment"></value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+          <value name="field_usereditable">true</value>
+          <value name="field_largerEditor">false</value>
+          <value name="field_password">false</value>
+        </record>
+        <value name="is_public">false</value>
+        <value name="field_name">status</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <array name="field_options" type="value" depth="1">
+        </array>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <number name="protobufKey" type="Integer">3</number>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="node_comment"></value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+          <value name="field_largerEditor">false</value>
+          <value name="field_password">false</value>
+        </record>
+        <value name="is_public">false</value>
+        <value name="field_name">alternativeNames</value>
+        <value name="field_type">record</value>
+        <value name="field_dim">1</value>
+        <value name="wrapper_type">IData</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="is_soap_array_encoding_used">false</value>
+        <number name="protobufKey" type="Integer">4</number>
+        <array name="rec_fields" type="record" depth="1">
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">record</value>
+            <value name="node_subtype">unknown</value>
+            <value name="node_comment"></value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_usereditable">true</value>
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+            </record>
+            <value name="is_public">false</value>
+            <value name="field_name">name</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <array name="field_options" type="value" depth="1">
+            </array>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+            <number name="protobufKey" type="Integer">1</number>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">record</value>
+            <value name="node_subtype">unknown</value>
+            <value name="node_comment"></value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_usereditable">true</value>
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+            </record>
+            <value name="is_public">false</value>
+            <value name="field_name">language</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <array name="field_options" type="value" depth="1">
+            </array>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+            <number name="protobufKey" type="Integer">2</number>
+          </record>
+        </array>
+        <value name="rec_closed">true</value>
+        <value name="modifiable">true</value>
+        <number name="lastProtobufKey" type="Integer">2</number>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="node_comment"></value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+          <value name="field_largerEditor">false</value>
+          <value name="field_password">false</value>
+        </record>
+        <value name="is_public">false</value>
+        <value name="field_name">categories</value>
+        <value name="field_type">record</value>
+        <value name="field_dim">1</value>
+        <value name="wrapper_type">IData</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="is_soap_array_encoding_used">false</value>
+        <number name="protobufKey" type="Integer">5</number>
+        <array name="rec_fields" type="record" depth="1">
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">record</value>
+            <value name="node_subtype">unknown</value>
+            <value name="node_comment"></value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_usereditable">true</value>
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+            </record>
+            <value name="is_public">false</value>
+            <value name="field_name">code</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <array name="field_options" type="value" depth="1">
+            </array>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+            <number name="protobufKey" type="Integer">1</number>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">record</value>
+            <value name="node_subtype">unknown</value>
+            <value name="node_comment"></value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_usereditable">true</value>
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+            </record>
+            <value name="is_public">false</value>
+            <value name="field_name">name</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <array name="field_options" type="value" depth="1">
+            </array>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+            <number name="protobufKey" type="Integer">2</number>
+          </record>
+        </array>
+        <value name="rec_closed">true</value>
+        <value name="modifiable">true</value>
+        <number name="lastProtobufKey" type="Integer">2</number>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="node_comment"></value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+          <value name="field_largerEditor">false</value>
+          <value name="field_password">false</value>
+        </record>
+        <value name="is_public">false</value>
+        <value name="field_name">locations</value>
+        <value name="field_type">record</value>
+        <value name="field_dim">1</value>
+        <value name="wrapper_type">IData</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="is_soap_array_encoding_used">false</value>
+        <number name="protobufKey" type="Integer">6</number>
+        <array name="rec_fields" type="record" depth="1">
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">record</value>
+            <value name="node_subtype">unknown</value>
+            <value name="node_comment"></value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_usereditable">true</value>
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+            </record>
+            <value name="is_public">false</value>
+            <value name="field_name">id</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <array name="field_options" type="value" depth="1">
+            </array>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+            <number name="protobufKey" type="Integer">1</number>
+          </record>
+        </array>
+        <value name="rec_closed">true</value>
+        <value name="modifiable">true</value>
+        <number name="lastProtobufKey" type="Integer">1</number>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="node_comment"></value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+          <value name="field_largerEditor">false</value>
+          <value name="field_password">false</value>
+        </record>
+        <value name="is_public">false</value>
+        <value name="field_name">_env</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <value name="wrapper_type">IData</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <number name="protobufKey" type="Integer">536870910</number>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">pub.publish:envelope</value>
+      </record>
     </array>
+    <record name="eventDescription" javaclass="com.wm.util.Values">
+      <value name="brokerEventTypeName">wm::offline::dghr::datamodels::organisation</value>
+      <value name="timeToLive">0</value>
+      <value name="storageType">guaranteed</value>
+      <value name="clientValidation">true</value>
+      <value name="aliasName"></value>
+      <Boolean name="enableProtoBuf">true</Boolean>
+      <byte name="protoBufDescriptor">
+Cu0OCglwZHQucHJvdG8i9QIKHGRnaHJfZGF0YW1vZGVsc19vcmdhbmlzYXRpb24SDgoCaWQYASABKAlSAmlkEhIKBG5hbWUYAiABKAlSBG5hbWUSFgoGc3RhdHVzGAMgASgJUgZzdGF0dXMSWgoQYWx0ZXJuYXRpdmVOYW1lcxgEIAMoCzIuLmRnaHJfZGF0YW1vZGVsc19vcmdhbmlzYXRpb25fYWx0ZXJuYXRpdmVOYW1lc1IQYWx0ZXJuYXRpdmVOYW1lcxJICgpjYXRlZ29yaWVzGAUgAygLMiguZGdocl9kYXRhbW9kZWxzX29yZ2FuaXNhdGlvbl9jYXRlZ29yaWVzUgpjYXRlZ29yaWVzEkUKCWxvY2F0aW9ucxgGIAMoCzInLmRnaHJfZGF0YW1vZGVsc19vcmdhbmlzYXRpb25fbG9jYXRpb25zUglsb2NhdGlvbnMSLAoEX2Vudhj+////ASABKAsyFS5wdWJfcHVibGlzaF9lbnZlbG9wZVIDRW52IjgKJmRnaHJfZGF0YW1vZGVsc19vcmdhbmlzYXRpb25fbG9jYXRpb25zEg4KAmlkGAEgASgJUgJpZCJfCi1kZ2hyX2RhdGFtb2RlbHNfb3JnYW5pc2F0aW9uX2FsdGVybmF0aXZlTmFtZXMSEgoEbmFtZRgBIAEoCVIEbmFtZRIaCghsYW5ndWFnZRgCIAEoCVIIbGFuZ3VhZ2UiUQonZGdocl9kYXRhbW9kZWxzX29yZ2FuaXNhdGlvbl9jYXRlZ29yaWVzEhIKBGNvZGUYASABKAlSBGNvZGUSEgoEbmFtZRgCIAEoCVIEbmFtZSKFCQoUcHViX3B1Ymxpc2hfZW52ZWxvcGUSHgoKYWN0aXZhdGlvbhgBIAEoCVIKYWN0aXZhdGlvbhIgCgthcHBMYXN0U2VxbhgCIAEoBVILYXBwTGFzdFNlcW4SIAoLYXBwUGFzc3dvcmQYAyABKAlSC2FwcFBhc3N3b3JkEhgKB2FwcFNlcW4YBCABKAVSB2FwcFNlcW4SIAoLYXBwVXNlck5hbWUYBSABKAlSC2FwcFVzZXJOYW1lEhoKCHByaW9yaXR5GAYgASgFUghwcmlvcml0eRIoCg9idXNpbmVzc0NvbnRleHQYByABKAlSD2J1c2luZXNzQ29udGV4dBIiCgxjb250cm9sTGFiZWwYCCADKAVSDGNvbnRyb2xMYWJlbBIaCghlcnJvcnNUbxgJIAEoCVIIZXJyb3JzVG8SKAoPZXJyb3JSZXF1ZXN0c1RvGAogASgJUg9lcnJvclJlcXVlc3RzVG8SFgoGbG9jYWxlGAsgASgJUgZsb2NhbGUSHgoKbWF4UmVzdWx0cxgMIAEoBVIKbWF4UmVzdWx0cxIYCgdyZXBseVRvGA0gASgJUgdyZXBseVRvEhoKCHJ1bkxldmVsGA4gASgFUghydW5MZXZlbBIcCglzaWduYXR1cmUYDyABKAxSCXNpZ25hdHVyZRIkCg1zaWduYXR1cmVUeXBlGBAgASgJUg1zaWduYXR1cmVUeXBlEiAKC3N0YXJ0UmVzdWx0GBEgASgFUgtzdGFydFJlc3VsdBIQCgN0YWcYEiABKAVSA3RhZxIYCgd0cmFja0lkGBMgASgJUgd0cmFja0lkEiQKDXRyYW5zYWN0aW9uSWQYFCABKAlSDXRyYW5zYWN0aW9uSWQSJgoOdHJhbnNmb3JtU3RhdGUYFSABKAlSDnRyYW5zZm9ybVN0YXRlEhAKA2FnZRgWIAEoBVIDYWdlEjAKE2Nvbm5lY3Rpb25JbnRlZ3JpdHkYFyABKAlSE2Nvbm5lY3Rpb25JbnRlZ3JpdHkSFgoGZGVzdElkGBggASgJUgZkZXN0SWQSIAoLZW5xdWV1ZVRpbWUYGSABKANSC2VucXVldWVUaW1lEhwKCWxvZ0Jyb2tlchgaIAEoCVIJbG9nQnJva2VyEhgKB2xvZ0hvc3QYGyABKAlSB2xvZ0hvc3QSMgoUcHViRGlzdGluZ3Vpc2hlZE5hbWUYHCABKAlSFHB1YkRpc3Rpbmd1aXNoZWROYW1lEhQKBXB1YklkGB0gASgJUgVwdWJJZBIeCgpwdWJOZXRBZGRyGB4gASgMUgpwdWJOZXRBZGRyEhgKB3B1YlNlcW4YHyABKANSB3B1YlNlcW4SGgoIcHViTGFiZWwYICADKAVSCHB1YkxhYmVsEhoKCHJlY3ZUaW1lGCEgASgDUghyZWN2VGltZRIxCgVyb3V0ZRgiIAMoCzIbLnB1Yl9wdWJsaXNoX2VudmVsb3BlX3JvdXRlUgVyb3V0ZRISCgR1dWlkGCMgASgJUgR1dWlkEhYKBnN0YXR1cxgkIAEoCVIGc3RhdHVzInIKGnB1Yl9wdWJsaXNoX2VudmVsb3BlX3JvdXRlEhYKBmJyb2tlchgBIAEoCVIGYnJva2VyEhoKCHJlY3ZUaW1lGAIgASgDUghyZWN2VGltZRIgCgtlbnF1ZXVlVGltZRgDIAEoA1ILZW5xdWV1ZVRpbWU=      </byte>
+    </record>
     <value name="modifiable">true</value>
-    <value name="LOCK_REQUIRED">true</value>
+    <number name="lastProtobufKey" type="Integer">6</number>
+    <Boolean name="enableProtoBuf">true</Boolean>
+    <byte name="protoBufDescriptor">
+Cu0OCglwZHQucHJvdG8i9QIKHGRnaHJfZGF0YW1vZGVsc19vcmdhbmlzYXRpb24SDgoCaWQYASABKAlSAmlkEhIKBG5hbWUYAiABKAlSBG5hbWUSFgoGc3RhdHVzGAMgASgJUgZzdGF0dXMSWgoQYWx0ZXJuYXRpdmVOYW1lcxgEIAMoCzIuLmRnaHJfZGF0YW1vZGVsc19vcmdhbmlzYXRpb25fYWx0ZXJuYXRpdmVOYW1lc1IQYWx0ZXJuYXRpdmVOYW1lcxJICgpjYXRlZ29yaWVzGAUgAygLMiguZGdocl9kYXRhbW9kZWxzX29yZ2FuaXNhdGlvbl9jYXRlZ29yaWVzUgpjYXRlZ29yaWVzEkUKCWxvY2F0aW9ucxgGIAMoCzInLmRnaHJfZGF0YW1vZGVsc19vcmdhbmlzYXRpb25fbG9jYXRpb25zUglsb2NhdGlvbnMSLAoEX2Vudhj+////ASABKAsyFS5wdWJfcHVibGlzaF9lbnZlbG9wZVIDRW52IjgKJmRnaHJfZGF0YW1vZGVsc19vcmdhbmlzYXRpb25fbG9jYXRpb25zEg4KAmlkGAEgASgJUgJpZCJfCi1kZ2hyX2RhdGFtb2RlbHNfb3JnYW5pc2F0aW9uX2FsdGVybmF0aXZlTmFtZXMSEgoEbmFtZRgBIAEoCVIEbmFtZRIaCghsYW5ndWFnZRgCIAEoCVIIbGFuZ3VhZ2UiUQonZGdocl9kYXRhbW9kZWxzX29yZ2FuaXNhdGlvbl9jYXRlZ29yaWVzEhIKBGNvZGUYASABKAlSBGNvZGUSEgoEbmFtZRgCIAEoCVIEbmFtZSKFCQoUcHViX3B1Ymxpc2hfZW52ZWxvcGUSHgoKYWN0aXZhdGlvbhgBIAEoCVIKYWN0aXZhdGlvbhIgCgthcHBMYXN0U2VxbhgCIAEoBVILYXBwTGFzdFNlcW4SIAoLYXBwUGFzc3dvcmQYAyABKAlSC2FwcFBhc3N3b3JkEhgKB2FwcFNlcW4YBCABKAVSB2FwcFNlcW4SIAoLYXBwVXNlck5hbWUYBSABKAlSC2FwcFVzZXJOYW1lEhoKCHByaW9yaXR5GAYgASgFUghwcmlvcml0eRIoCg9idXNpbmVzc0NvbnRleHQYByABKAlSD2J1c2luZXNzQ29udGV4dBIiCgxjb250cm9sTGFiZWwYCCADKAVSDGNvbnRyb2xMYWJlbBIaCghlcnJvcnNUbxgJIAEoCVIIZXJyb3JzVG8SKAoPZXJyb3JSZXF1ZXN0c1RvGAogASgJUg9lcnJvclJlcXVlc3RzVG8SFgoGbG9jYWxlGAsgASgJUgZsb2NhbGUSHgoKbWF4UmVzdWx0cxgMIAEoBVIKbWF4UmVzdWx0cxIYCgdyZXBseVRvGA0gASgJUgdyZXBseVRvEhoKCHJ1bkxldmVsGA4gASgFUghydW5MZXZlbBIcCglzaWduYXR1cmUYDyABKAxSCXNpZ25hdHVyZRIkCg1zaWduYXR1cmVUeXBlGBAgASgJUg1zaWduYXR1cmVUeXBlEiAKC3N0YXJ0UmVzdWx0GBEgASgFUgtzdGFydFJlc3VsdBIQCgN0YWcYEiABKAVSA3RhZxIYCgd0cmFja0lkGBMgASgJUgd0cmFja0lkEiQKDXRyYW5zYWN0aW9uSWQYFCABKAlSDXRyYW5zYWN0aW9uSWQSJgoOdHJhbnNmb3JtU3RhdGUYFSABKAlSDnRyYW5zZm9ybVN0YXRlEhAKA2FnZRgWIAEoBVIDYWdlEjAKE2Nvbm5lY3Rpb25JbnRlZ3JpdHkYFyABKAlSE2Nvbm5lY3Rpb25JbnRlZ3JpdHkSFgoGZGVzdElkGBggASgJUgZkZXN0SWQSIAoLZW5xdWV1ZVRpbWUYGSABKANSC2VucXVldWVUaW1lEhwKCWxvZ0Jyb2tlchgaIAEoCVIJbG9nQnJva2VyEhgKB2xvZ0hvc3QYGyABKAlSB2xvZ0hvc3QSMgoUcHViRGlzdGluZ3Vpc2hlZE5hbWUYHCABKAlSFHB1YkRpc3Rpbmd1aXNoZWROYW1lEhQKBXB1YklkGB0gASgJUgVwdWJJZBIeCgpwdWJOZXRBZGRyGB4gASgMUgpwdWJOZXRBZGRyEhgKB3B1YlNlcW4YHyABKANSB3B1YlNlcW4SGgoIcHViTGFiZWwYICADKAVSCHB1YkxhYmVsEhoKCHJlY3ZUaW1lGCEgASgDUghyZWN2VGltZRIxCgVyb3V0ZRgiIAMoCzIbLnB1Yl9wdWJsaXNoX2VudmVsb3BlX3JvdXRlUgVyb3V0ZRISCgR1dWlkGCMgASgJUgR1dWlkEhYKBnN0YXR1cxgkIAEoCVIGc3RhdHVzInIKGnB1Yl9wdWJsaXNoX2VudmVsb3BlX3JvdXRlEhYKBmJyb2tlchgBIAEoCVIGYnJva2VyEhoKCHJlY3ZUaW1lGAIgASgDUghyZWN2VGltZRIgCgtlbnF1ZXVlVGltZRgDIAEoA1ILZW5xdWV1ZVRpbWU=    </byte>
   </record>
 </Values>
