@@ -4,17 +4,37 @@ optional  string name = 2;
 optional  string status = 3;
 repeated  dghr_datamodels_organisation_alternativeNames alternativeNames = 4;
 repeated  dghr_datamodels_organisation_categories categories = 5;
-repeated  dghr_datamodels_organisation_locations locations = 6;
+repeated  dghr_datamodels_location locations = 7;
 optional  pub_publish_envelope _env = 536870910;
-}
-message dghr_datamodels_organisation_locations {
-optional  string id = 1;
 }
 message dghr_datamodels_organisation_alternativeNames {
 optional  string name = 1;
 optional  string language = 2;
 }
 message dghr_datamodels_organisation_categories {
+optional  string code = 1;
+optional  string name = 2;
+}
+message dghr_datamodels_location {
+optional  string id = 1;
+optional  string isHeadquarter = 2;
+optional  string status = 3;
+optional  dghr_datamodels_location_address address = 4;
+optional  dghr_datamodels_location_gpsLocation gpsLocation = 5;
+}
+message dghr_datamodels_location_gpsLocation {
+optional  string latitude = 1;
+optional  string longitude = 2;
+}
+message dghr_datamodels_location_address {
+optional  dghr_datamodels_location_address_country country = 1;
+optional  string address = 2;
+optional  string addressline2 = 3;
+optional  string postalcode = 4;
+optional  string city = 5;
+optional  string state = 6;
+}
+message dghr_datamodels_location_address_country {
 optional  string code = 1;
 optional  string name = 2;
 }
